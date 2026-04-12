@@ -1,0 +1,5 @@
+=== FINAL METRICS (ALL FOLDS) ===
+Accuracy       : 0.616708
+Macro Precision: 0.784267
+Macro Recall   : 0.668675
+Macro F1       : 0.630892

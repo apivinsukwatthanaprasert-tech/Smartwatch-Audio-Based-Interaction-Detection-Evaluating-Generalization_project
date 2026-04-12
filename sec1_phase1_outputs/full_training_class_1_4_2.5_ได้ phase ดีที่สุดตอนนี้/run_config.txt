@@ -1,0 +1,20 @@
+=== RUN CONFIG ===
+DATA_DIR = C:\Users\66617\Desktop\PublicDataSet\audio_imu_conversational_data\audio_features
+OUTPUT_DIR = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs
+INPUT_SHAPE = (128, 120, 1)
+NUM_CLASSES = 3
+EVALUATION = LeaveOneGroupOut
+NUM_GROUPS = 22
+GROUPS = ['p10', 'p11', 'p12', 'p13', 'p14', 'p15', 'p16', 'p17', 'p18', 'p19', 'p20', 'p21', 'p22', 'p23', 'p24', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8', 'p9']
+RANDOM_SEED = 42
+BATCH_SIZE = 32
+EPOCHS = 20
+LEARNING_RATE = 0.001
+TOTAL_DATA_SHAPE = (1691, 128, 120, 1)
+MEAN_ACCURACY = 0.620023
+MEAN_MACRO_F1 = 0.599585
+KERAS_MODEL_PATH = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs\conversation_cnn_3class.keras
+TFLITE_MODEL_PATH = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs\conversation_cnn_3class.tflite
+TRAINING_CURVE_PATH = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs\training_curve.png
+CONFUSION_MATRIX_PATH = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs\plots\confusion_matrix_all_folds.png
+CLASSIFICATION_REPORT_PATH = C:\Users\66617\Desktop\Smartwatch Audio Based Interaction Detection Evaluating Generalizatio_project\sec1_phase1_outputs\classification_report.txt
