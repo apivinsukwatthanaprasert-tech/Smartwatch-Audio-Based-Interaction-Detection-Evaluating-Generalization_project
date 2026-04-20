@@ -1,16 +1,16 @@
 ===== PHASE 2 FILE-LEVEL RESULTS =====
-Accuracy       : 0.500000
-Macro Precision: 0.642857
-Macro Recall   : 0.573975
-Macro F1       : 0.473913
+Accuracy       : 0.562500
+Macro Precision: 0.695402
+Macro Recall   : 0.610517
+Macro F1       : 0.481481
 
 ===== CLASSIFICATION REPORT =====
                   precision    recall  f1-score   support
 
-background_noise     1.0000    0.1765    0.3000        17
-    other_speech     0.4286    1.0000    0.6000         9
-    conversation     0.5000    0.5455    0.5217        22
+background_noise     1.0000    0.0588    0.1111        17
+    other_speech     0.5000    1.0000    0.6667         9
+    conversation     0.5862    0.7727    0.6667        22
 
-        accuracy                         0.5000        48
-       macro avg     0.6429    0.5740    0.4739        48
-    weighted avg     0.6637    0.5000    0.4579        48
+        accuracy                         0.5625        48
+       macro avg     0.6954    0.6105    0.4815        48
+    weighted avg     0.7166    0.5625    0.4699        48
